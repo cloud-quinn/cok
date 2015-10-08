@@ -50,7 +50,7 @@ body {
 }
 
 .header {
-  background: url("banner2.jpg") repeat-x;
+  background: url("Images/banner2.jpg") repeat-x;
   height: 15em;       
   box-shadow: 0px 0px 4px 4px rgba(0,0,0,0.3);
   color: #372B37;
@@ -118,32 +118,32 @@ a.social {
 }
 
 #circle1 {
-    background: url("gold.jpg");
+    background: url("Images/gold.jpg");
     padding: 1.75em 1.75em;
 }
 
 #circle2 {
-    background: url("purple.jpg");
+    background: url("Images/purple.jpg");
     padding: 1.75em 1em;
 }
 
 #circle3 {
-    background: url("green.jpg");
+    background: url("Images/green.jpg");
     padding: 1.75em 1em;
 }
 
 #circle4 {
-    background: url("blue.jpg");
+    background: url("Images/blue.jpg");
     padding: 1.75em 1.5em;
 }
 
 #circle5 {
-    background: url("orange.jpg");
+    background: url("Images/orange.jpg");
     padding: 1.75em 1.5em;
 }
 
 #circle6 {
-    background: url("red.jpg");
+    background: url("Images/red.jpg");
     padding: 1.75em 1.25em;
 }
 
@@ -180,7 +180,7 @@ a.social {
   }
 
   .header {
-    background: url("banner3.jpg");
+    background: url("Images/banner3.jpg");
     height: 200px;
   }
 }
