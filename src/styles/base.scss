@@ -1,0 +1,52 @@
+$nav-height: 85px;
+$logo-height: 70px;
+$dark-grey: #010101;
+$link-height: 50px;
+
+body {
+	background-image: url('./assets/cream.jpg');
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.top {
+  border: none;
+  height: $nav-height;
+}
+
+.top-navigation {
+  text-align: center;
+  a {
+    padding: 1em 1em;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    height: $link-height;
+    vertical-align: middle;
+    &:hover {
+      color: $dark-grey
+    }
+  }
+}
+
+#top-nav-1 {
+  background: url('./assets/blue.jpg');
+}
+
+#top-nav-2 {
+  background: url('./assets/orange.jpg');
+}
+
+#top-nav-3 {
+  background: url('./assets/green.jpg');
+}
+
+.logo {
+  height: $logo-height;
+  margin: 0.5em;
+}
+
+@media (min-width: 1024) {
+
+}
