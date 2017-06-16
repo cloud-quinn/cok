@@ -1,13 +1,30 @@
-$nav-height: 85px;
-$logo-height: 70px;
+$nav-height: 105px;
+$logo-height: 115px;
 $dark-grey: #010101;
 $link-height: 50px;
+$gold: #C2BC02;
+$blue: #337ab7;
+$light-grey: #b5b5b5;
 
 body {
 	background-image: url('./assets/cream.jpg');
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
+}
+
+.brand-header, .top-navigation {
+  font-family: 'Pangolin', cursive;
+}
+
+.brand-header {
+  font-size: 2em;
+  color: $dark-grey;
+  text-shadow: 2px 2px $light-grey;
+  &:hover {
+    text-decoration: none !important;
+    color: $dark-grey !important;
+  }
 }
 
 .top {
@@ -18,16 +35,30 @@ body {
 .top-navigation {
   text-align: center;
   a {
-    padding: 1em 1em;
+    z-index: -1 !important;
+    padding: 0.7em 1em;
     color: #fff;
     cursor: pointer;
     text-decoration: none;
     height: $link-height;
     vertical-align: middle;
+    font-weight: bold;
+    font-size: 1.4em;
     &:hover {
-      color: $dark-grey
+      color: $dark-grey;
+      opacity: 0.8;
     }
   }
+}
+
+.utility {
+  float:left; 
+  display: block;
+  margin: 3.3em 1em;
+}
+
+.hidden-sm-down {
+  display: none;
 }
 
 #top-nav-1 {
@@ -44,7 +75,17 @@ body {
 
 .logo {
   height: $logo-height;
-  margin: 0.5em;
+  z-index: 2;
+}
+
+@media (min-width: 768) {
+  .brand-header {
+    font-size: 2.5em;
+  }
+  
+  .hidden-sm-down {
+    display: inline-block;
+  }
 }
 
 @media (min-width: 1024) {

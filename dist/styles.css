@@ -1,0 +1,63 @@
+body {
+  background-image: url("./assets/cream.jpg");
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0; }
+
+.brand-header, .top-navigation {
+  font-family: 'Pangolin', cursive; }
+
+.brand-header {
+  font-size: 2em;
+  color: #010101;
+  text-shadow: 2px 2px #b5b5b5; }
+  .brand-header:hover {
+    text-decoration: none !important;
+    color: #010101 !important; }
+
+.top {
+  border: none;
+  height: 105px; }
+
+.top-navigation {
+  text-align: center; }
+  .top-navigation a {
+    z-index: -1 !important;
+    padding: 0.7em 1em;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    height: 50px;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 1.4em; }
+    .top-navigation a:hover {
+      color: #010101;
+      opacity: 0.8; }
+
+.utility {
+  float: left;
+  display: block;
+  margin: 3.3em 1em; }
+
+.hidden-sm-down {
+  display: none; }
+
+#top-nav-1 {
+  background: url("./assets/blue.jpg"); }
+
+#top-nav-2 {
+  background: url("./assets/orange.jpg"); }
+
+#top-nav-3 {
+  background: url("./assets/green.jpg"); }
+
+.logo {
+  height: 115px;
+  z-index: 2; }
+
+@media (min-width: 768) {
+  .brand-header {
+    font-size: 2.5em; }
+  .hidden-sm-down {
+    display: inline-block; } }
